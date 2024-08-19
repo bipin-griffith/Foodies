@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function something() {
+export default function something({params}) {
   return (
-    <div>something</div>
+    <div><h1>{params.params}</h1></div>
   )
 }
